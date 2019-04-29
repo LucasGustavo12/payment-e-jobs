@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="form.css">
+    <title>PGPage</title>
+</head>
+<body>
+    <nav id="cabec">
+        <div class="ptext1">
+            <div class="fpag">
+                <h1>Formas de Pagamento</h1>
+            </div>
+        </div>
+        <div id="principal">
+            <div class="pagform">
+                <ul class="ulform1"> 
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> BOLETO BANCÁRIO
+                    <div class="ibol">
+                            <img src="img/icon-barcode.png" alt="">
+                    </div>
+                </ul>
+                <ul class="ulform2">
+                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> CARTÃO DE CRÉDITO 
+                    <div class="icard">
+                        <img src="img/icon-credit.png" alt="">
+                    </div>
+                </ul>
+                <div id="planos">
+                    <p class="plans">PLANOS</p>
+                    <ul class="men">
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> MENSAL
+                    </ul>
+                    <ul class="anu">
+                        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> ANUAL
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="logo">
+            <img src="img/e-jobs.png" alt="">
+        </div>
+        <div class="termos">
+                <b><INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> ACEITO TERMOS E CONDIÇÕES DE USO</b>
+        </div>
+        <footer id="pcard">
+            <div class="pagamento">                  
+        <form class="card">
+        <div class="card-header">
+          <h1 class="card-title">
+            Cartão de Crédito
+          </h1>
+        </div>
+        <p>
+          <input type="text" class="card-name" placeholder="NOME COMPLETO">
+          <input type="text" class="card-imput" placeholder="MM">
+          <input type="text" class="card-imput" placeholder="AA">
+        </p>
+        <p>
+          <input type="text" class="card-input" placeholder="4111 1111 1111 1111">
+          <input type="text" class="card-imput" placeholder="CSC">
+        </p>
+        <p>
+          <input type="submit" value="Prosseguir" class="checkout-btn">
+        </p>
+      </form>
+            </div>
+            <form class="bolet">
+                <p class="boleto">BOLETO BANCÁRIO</p>
+                <input type="text" class="boleto-name" placeholder="CPF">
+            </form>
+        </footer>
+</body>
+</html>

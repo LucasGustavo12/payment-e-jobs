@@ -1,0 +1,91 @@
+        
+        #cabec{
+        background-color :#000080;
+		padding-right : 25px;
+        padding-top : 50px;
+        padding: 33px;
+        height: 110px;
+        color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .logo{
+        margin-left: 40px;
+        margin-top: -3%;
+    }
+    #principal{
+        width : 1024px;
+        height : 500px;
+        margin : 0px auto;
+        margin-top: 50px;
+        }
+    .ptext1{
+        text-align: center;
+    }
+    .fpag{
+        list-style: none;
+        font-size: 30px;
+    }
+    .pagform{
+        padding-top: 40px;
+        font-size: 26px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .ulform1{
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+    }
+    .ulform1, a:link {text-decoration: none}
+    a:hover {text-decoration: none;
+    color: #123ab5;
+    }
+
+    .ulform2{
+        font-family: 'Noto Sans', sans-serif;
+        list-style-type:circle;
+        color: black;
+    }
+    .ibol{
+        margin-left: 90px;
+    }
+    .icard{
+        margin-left: 80px;
+    }
+    #planos{
+        margin-top: -25%;
+        margin-left: 70%;
+        color: black;
+        
+    }
+    .plans{
+        margin-left: 15%;
+    }
+    #logo{
+        text-align: center;
+        margin-top: 15%;
+    }
+    #pcard{
+        background-color :#000080;
+        padding: 40px;
+        height: 100px;
+        color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 1%;
+    }
+    .card{
+        padding-left: 5px;
+        margin-top: -5%;
+    }
+    .termos{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .bolet{
+        margin-left: 60%;
+        margin-top: -15%;
+        font-size: 25px;
+    } 
+    .boleto{
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
